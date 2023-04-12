@@ -1,0 +1,36 @@
+html,
+body {
+  min-height: 100%;
+}
+
+.cheeseBox {
+  cursor: url("cheese.png"), auto;
+  background-image: url("prince.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+}
+
+.header {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.hyunseo {
+  cursor: url("cheese.png"), auto;
+  width: 150px;
+  position: absolute;
+}
+
+.cat {
+  cursor: url("cheese.png"), auto;
+  width: 100px;
+  position: absolute;
+}
+
+.yummy {
+  opacity: 0;
+  width: 100;
+  position: absolute;
+}
